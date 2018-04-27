@@ -165,7 +165,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 12
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -235,3 +235,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boidPrefab: {fileID: 1570697921363600, guid: 0e2d52fa085c30e44867e7a0b2f8110d, type: 2}
+  numBoids: 30
+  allBoids: []
+  range: {x: 15, y: 8, z: 5}
+  seekGoal: 1
+  obedient: 1
+  willful: 0
+  neighbourDistance: 50
+  maxForce: 0.5
+  maxVelocity: 2
